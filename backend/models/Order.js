@@ -19,7 +19,6 @@ const orderSchema = new mongoose.Schema(
             ref: "Medicine",
             required: true
         },
-
         quantity: {
     type: Number,
     required: true,
